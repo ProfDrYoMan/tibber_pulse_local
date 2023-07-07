@@ -82,12 +82,6 @@ Unplug the tibber bridge, wait ten seconds and plug it back again. Now it should
 
 The web frontend should now be accessible on <http://tibber_bridge/>.
 
-## Extracting your PulseID
-
-Check the parameter named ```mqtt_topic_sub``` in <http://tibber_bridge/params.json?node_id=1>.
-
-Find the PulseID in the value: ```tibber-bridge/[PulseID]/receive```
-
 ## Home Assistant Config Files Tree
 
 ```text
@@ -115,7 +109,11 @@ Content of the file is the value of the variable in <http://tibber_bridge/params
 
 ### tibber_bridge.conf
 
-Check the file with the same name in this repository. Replace ```[PulseID]``` with the PulseID extracted above.
+Check the file with the same name in this repository. Replace ```[PulseID]``` with the PulseID as extracted below. 
+
+Check the parameter named ```mqtt_topic_sub``` in <http://tibber_bridge/params.json?node_id=1>.
+
+Find the PulseID in the value: ```tibber-bridge/[PulseID]/receive```
 
 ## References
 
