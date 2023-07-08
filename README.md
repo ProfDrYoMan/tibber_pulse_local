@@ -101,7 +101,7 @@ Content of the file is the value of the variable in <http://tibber_bridge/params
 
 ### cert.ctr
 
-Content of the file is the value of the variable in <http://tibber_bridge/params.json?node_id=1>``` named ```certificate```.
+Content of the file is the value of the variable in <http://tibber_bridge/params.json?node_id=1> named ```certificate```.
 
 ### priv.key
 
