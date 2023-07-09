@@ -118,3 +118,4 @@ Find the PulseID in the value: ```tibber-bridge/[PulseID]/receive```
 ## References
 
 * <https://github.com/MSkjel/LocalPulse2Tibber>
+* <https://blog.wyraz.de/allgemein/a-brief-analysis-of-the-tibber-pulse-bridge/>
