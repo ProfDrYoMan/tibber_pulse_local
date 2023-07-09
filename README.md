@@ -67,12 +67,12 @@ But to get into the web frontend for the first time the following steps need to 
 
 The LED on the tibber bridge should now light up green and not light blue anymore.
 
-Now use any device (laptop, pad, phone) to connect to the WiFi network ```tibber-bridge```.
-The password is the nine characters printed on the tibber-bridge.
+Now use any device (laptop, pad, phone) to connect to the WiFi network ```Tibber Bridge```.
+The password is the nine characters printed on the tibber bridge.
 
 Use a web browser on that device to connect to <http://10.133.70.1/>.
 
-The username is ```admin``` and the password is again the nine characters printed on the tibber-bridge.
+The username is ```admin``` and the password is again the nine characters printed on the tibber bridge.
 
 When connected, select the param tab an there find and set the variable ```webserver_force_enable``` to ```true```.
 
